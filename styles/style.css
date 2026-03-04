@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Dancing+Script&display=swap');body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding-left: 7px;
+    padding-top: 7px; 
+    padding-right: 40px;
+    background-color: #b0bbcc21;
+    height: 138px;
+    border-radius: 20px;
+    margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+}
+
+.infos{
+    display: flex;
+}
+
+.perfil{
+    width: 130px;
+    height: 130px;
+    border-radius: 25%;
+}
+
+h1{
+    font-size: 21px;
+    margin-left: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.buttom{
+    display: flex;
+    justify-content: end;
+    margin-top: -56px;
+}
+
+.link{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.alink{
+    display: flex;
+    text-decoration: none;
+    color: rgb(32, 32, 32);}
+
+.website{
+    padding: 7px 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.website:hover{
+    background-color: #e2271a93;
+    color: white;
+    transition: 0.3s;
+    border: 2px solid #e2271a93;
+
+}
+
+.apresenta{
+    font-family: 'Inter', sans-serif;
+}
+
+h2{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 19px;
+}
+
+.apresenta{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+
+}
+
+.redes-sociais{
+    display: flex;
+    padding: 7px 10px;
+    margin-top: 10px;
+}
+
+.buttomRede{
+    display: flex;
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 32px;
+    margin-left: 7px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.redelink{
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 20px;
+    margin-top: -7px;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.buttomListe{
+    display: flex;
+    color: rgb(32, 32, 32);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    border: 2px solid rgb(189, 189, 189);
+    background-color: transparent;
+    padding-top: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 19px;
+    width: 90%;
+    height: 50px;
+    margin-bottom: 7px;
+}
+
+.divlist1{
+    border-radius: 10px;
+    height: 30px;
+    border-color: #3676ff;
+    width: 30px;
+    padding-bottom: -6px;
+    margin-top: -3px;
+    margin-left: 15px;
+}
+
+.divlist2{
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    padding-bottom: -6px;
+    margin-top: -3px;
+    margin-left: 15px;
+    border-color: #ff4545;
+}
+
+
+.iconlist{
+    display: flex;
+        border-color: #ff4545;
+
+    justify-content: end;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 6px;
+}
