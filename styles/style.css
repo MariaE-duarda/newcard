@@ -85,6 +85,7 @@ h2{
 span{
     font-family: 'Dancing Script', cursive;
     font-size: 19px;
+    margin-left: 14px;
 }
 
 .apresenta{
@@ -111,7 +112,7 @@ a {
     padding-right: 10px;
     padding-top: 5px;
     height: 32px;
-    margin-left: 7px;
+    margin-left: 11px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     background-color: transparent;
