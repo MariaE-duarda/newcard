@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Dancing+Script&display=swap');body{
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Yellowtail&display=swap');
+
+body{
     margin: 0;
     padding: 0;
+    background-color: #16191a;
 }
 
 .header{
@@ -22,15 +25,16 @@
 .perfil{
     width: 130px;
     height: 130px;
-    border-radius: 25%;
+    border-radius: 15%;
 }
 
 h1{
     font-size: 21px;
     margin-left: 12px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
     padding-top: 5px;
+    color: #b0bbcc;
 }
 
 .buttom{
@@ -48,7 +52,8 @@ h1{
 .alink{
     display: flex;
     text-decoration: none;
-    color: rgb(32, 32, 32);}
+    color: #b0bbcc;
+}
 
 .website{
     padding: 7px 50px;
@@ -79,19 +84,23 @@ h2{
     margin-bottom: 2px;
     font-family: 'Inter', sans-serif;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
+    color: #b0bbcc
+
 }
 
 span{
     font-family: 'Dancing Script', cursive;
     font-size: 19px;
-    margin-left: 12px;
+    margin-left: 14px;
+    color: #b0bbcc;
 }
 
 .apresenta{
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 a {
@@ -101,22 +110,36 @@ a {
 
 }
 
+.colorrede{
+    color: #4e535c;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.linkzin{
+    width: 90%;
+    height: 50px;
+}
+
 .redes-sociais{
     display: flex;
-    padding: 7px 10px;
     margin-top: 10px;
+    justify-content: space-between;
+    padding: 5px 25px;
+    margin-right: 15px;
 }
 
 .buttomRede{
     display: flex;
     padding-right: 10px;
     padding-top: 5px;
-    height: 32px;
+    height: 27px;
     margin-left: 11px;
     font-family: 'Inter', sans-serif;
+    font-size: 12px;
     font-weight: 700;
-    background-color: transparent;
-    border: 2px solid rgb(189, 189, 189);
+    background-color: white;
+    border: none;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -136,40 +159,21 @@ a {
     flex-direction: column;
     padding-top: 10px;
 }
+
 .buttomListe{
     display: flex;
-    color: rgb(32, 32, 32);
+    color: #b0bbcc;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    border: 2px solid rgb(189, 189, 189);
-    background-color: transparent;
-    padding-top: 12px;
+    font-weight: 700;
+    border: none;
+    background-color: #b0bbcc21;
+    padding-top: 10px;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 19px;
-    width: 90%;
-    height: 50px;
+    font-size: 15px;
+    width: 100%;
+    height: 42px;
     margin-bottom: 7px;
-}
-
-.divlist1{
-    border-radius: 10px;
-    height: 30px;
-    border-color: #3676ff;
-    width: 30px;
-    padding-bottom: -6px;
-    margin-top: -3px;
-    margin-left: 15px;
-}
-
-.divlist2{
-    border-radius: 10px;
-    height: 30px;
-    width: 30px;
-    padding-bottom: -6px;
-    margin-top: -3px;
-    margin-left: 15px;
-    border-color: #ff4545;
 }
 
 
@@ -178,10 +182,9 @@ a {
         border-color: #ff4545;
 
     justify-content: end;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
-    padding-top: 5px;
+    padding-top: 2px;
     padding-left: 6px;
-
 }
